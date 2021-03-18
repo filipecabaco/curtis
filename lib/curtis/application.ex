@@ -8,7 +8,7 @@ defmodule Curtis.Application do
   def start(_type, _args) do
     children = [
       # Start the Ecto repository
-      Curtis.Repo,
+      # Curtis.Repo,
       # Start the Telemetry supervisor
       CurtisWeb.Telemetry,
       # Start the PubSub system
